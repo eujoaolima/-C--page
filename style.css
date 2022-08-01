@@ -8,94 +8,218 @@
 }
 
 body{
-    position: relative;
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
 
 .title {
+    position: relative;
     font-size: 150px;
     text-shadow: 0 0 50px;
     color: white;
-    position: relative;
     width: 100%;
-    left: 40%;
+    left: 170%;
     padding: 1%;
     margin-bottom: 90px;
 }
 
-.text-1, .text-2 {
-    color: white;
-    margin-bottom: 50px;
-}
-
-#subtitle-1, #subtitle-2 {
-    font-size: 50px;
-    text-shadow: 0 0 50px;
-    padding: 1%;
-    margin: 1%;
-}
-
-#paragraph {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
+.text-1 {
     position: relative;
-    left: 6%;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
+
+.text-2 {
+    position: absolute;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 45%;
+}
+
+#paragraph-1 {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    box-shadow: inset 0 0 32px 0 white, 0 0 32px 0 white;
+    font-size: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 9%;
+    position: absolute;
+    top: 170%;
+    left: 80%;
+    width: 100%;
 }
 
 #paragraph-2 {
-    font-size: 30px;
-    padding: 0;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    box-shadow: inset 0 0 32px 0 white, 0 0 32px 0 white;
+    font-size: 20px;
     margin: 0;
-    position: relative;
-    left: 6%;
+    padding: 9%;
+    position: absolute;
+    top: 170%;
+    left: 220%;
+    width: 100%;
 }
 
 #paragraph-3 {
-    font-size: 30px;
-    padding: 0;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    box-shadow: inset 0 0 32px 0 white, 0 0 32px 0 white;
+    font-size: 20px;
     margin: 0;
-    position: relative;
-    left: 6%;
+    padding: 9%;
+    position: absolute;
+    top: 550%;
+    left: 80%;
+    width: 100%;
 }
 
 #paragraph-4 {
-    font-size: 30px;
-    padding: 0;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    box-shadow: inset 0 0 32px 0 white, 0 0 32px 0 white;
+    font-size: 20px;
+    padding: 9%;
     margin: 0;
-    position: relative;
-    left: 6%;
+    position: absolute;
+    top: 550%;
+    left: 220%;
+    width: 100%;
 }
 
-#font-1, #font-2 {
-    position: relative;
+#paragraph-5 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 130%;
+    left: 22%;
+    width: 300%;
+}
+
+#paragraph-6{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 220%;
+    left: 22%;
+    width: 300%;
+}
+
+#paragraph-7 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 300%;
+    left: 22%;
+    width: 300%;
+}
+
+#paragraph-8 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 380%;
+    left: 22%;
+    width: 300%;
+}
+
+#paragraph-9 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 470%;
+    left: 22%;
+    width: 300%;
+}
+
+#paragraph-10 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 730%;
+    left: 22%;
+    width: 300%;
+}
+
+#font-1 {
+    position: absolute;
     margin: 1%;
     text-shadow: 0 0 30px yellow;
-    left: 100px;
+    left: 20%;
+    top: 900%;
+    width: 200%;
+}
+
+#font-2 {
+    position: absolute;
+    margin: 1%;
+    text-shadow: 0 0 30px yellow;
+    left: 20%;
+    top: 820%;
+    width: 200%;
 }
 
 #link {
     color: white;
 }
 
+#link-2 {
+    color: white;
+    background-color: #555;
+}
+
 #image-arduino {
-    position: relative;
+    position: absolute;
+    top: 995%;
     padding: 0;
     border-radius: 50%;
     left: 28%;
-    margin-bottom: 100px;
-    margin: 5%;
+    margin-bottom: 10%;
+}
+
+#subtitle-1, #subtitle-2 {
+    font-size: 40px;
+    text-shadow: 0 0 50px;
+    padding: 1%;
+    margin: 1%;
+    color: white;
+}
+
+#subtitle-1 {
+    position: relative;
+    top: 100%;
+    left: 20%;
+}
+
+#subtitle-2 {
+    position: relative;
+    bottom: 5%;
+    left: 20%;
+    width: 150%;
 }
 
 #subtle-1 {
     font-size: 20px;
-    margin-bottom: 40px;
-    position: relative;
-    left: 36%;
-    bottom: 50px;
+    position: absolute;
+    top: 1300%;
+    left: 200%;
+    width: 100%;
 }
 
-
-
-
+#footer {
+    position: absolute;
+    color: white;
+    padding: 0.3%;
+    background: #555;
+    width: 100%;
+    top: 370%;
+}
